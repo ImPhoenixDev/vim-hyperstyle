@@ -22,7 +22,6 @@ function! s:enable(semi)
 
   call s:map_key("<CR>", "hyperstyle-cr")
   call s:map_key("<Space>", "hyperstyle-space")
-  call s:map_key("<Tab>", "hyperstyle-tab")
   call s:map_key(":", "hyperstyle-colon")
   call s:map_key(";", "hyperstyle-semi")
 endfunction

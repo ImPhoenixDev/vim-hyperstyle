@@ -11,6 +11,8 @@ imap     <silent> <script> <Plug>(hyperstyle-colon) <SID>(hyperstyle-colon)
 inoremap <silent>  <SID>(hyperstyle-semi) <C-R>=hyperstyle#expand_semicolon()<CR>
 imap     <silent> <script> <Plug>(hyperstyle-semi) <SID>(hyperstyle-semi)
 
+let g:UltiSnipsExpandTrigger="<C-j>"
+
 " Enables Hyperstyle for the current buffer.
 " If `semi` is 1, semicolons will be added.
 function! s:enable(semi)
